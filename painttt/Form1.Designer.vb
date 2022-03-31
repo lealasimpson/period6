@@ -47,7 +47,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(707, 63)
+        Me.Button1.Location = New System.Drawing.Point(688, 62)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(26, 25)
         Me.Button1.TabIndex = 1
@@ -97,9 +97,12 @@ Partial Class Form1
         'TrackBar3
         '
         Me.TrackBar3.Location = New System.Drawing.Point(679, 296)
+        Me.TrackBar3.Maximum = 50
+        Me.TrackBar3.Minimum = 10
         Me.TrackBar3.Name = "TrackBar3"
         Me.TrackBar3.Size = New System.Drawing.Size(104, 45)
         Me.TrackBar3.TabIndex = 7
+        Me.TrackBar3.Value = 10
         '
         'Form1
         '
